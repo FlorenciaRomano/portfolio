@@ -5,7 +5,6 @@ import projImg2 from "../assets/img/unknown.png";
 import projImg3 from "../assets/img/1660076609170.png";
 import projImg4 from "../assets/img/portfolio.png";
 import projImg5 from "../assets/img/capianetflix.png";
-import projImg6 from "../assets/img/1660076609170.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,35 +13,31 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "DAFTLAB",
+      description: "E-commerce sneakers",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Mindy PetShop",
+      description: "E-commerce and veterinary care",
+      imgUrl:  projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "My Tinerary",
+      description:"Travel Itinerary",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Example Portfolio",
+      description: "Mockup of a portfolio",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Netflix Copia",
+      description: "I was testing myself",
       imgUrl: projImg5,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
-    },
+   
   ];
 
   return (
